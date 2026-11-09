@@ -11,7 +11,7 @@ All code is written in JavaScript (Node.js).
 | Task 2 | Coming soon |
 | Task 3 | Coming soon |
 | Task 4 | Coming soon |
-| Task 5 | Coming soon |
+| Task 5: Incident communication and documentation | [task-5-incident-communication](./task-5-incident-communication) |
 
 Each folder has its own README explaining what I found, what I changed and why.
 
@@ -23,6 +23,8 @@ Requires Node.js 18 or later. From inside a task folder:
 node <script-name>.js
 ```
 
+Task 5 has no code. It contains written documents only.
+
 ## AI assistance
 
-I used ChatGPT and Claude to help review the logs, discuss possible solutions and refine the JavaScript. I reviewed the suggestions, tested the code and chose each approach based on my own understanding of the problem.
+I used ChatGPT and Claude to help review the logs, discuss possible solutions, refine the JavaScript and simplify the wording of the documents. I reviewed the suggestions, tested the code and chose each approach based on my own understanding of the problem.
