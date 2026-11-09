@@ -1,0 +1,12 @@
+2026-11-03T01:55:12Z INFO api POST /v1/lockers/LK-2041/doors/open 200 firmware=3.4.2 compartment=12
+2026-11-03T01:57:40Z INFO api POST /v1/lockers/LK-1187/doors/open 200 firmware=3.1.0 compartment="07"
+2026-11-03T02:00:05Z INFO deploy release v2.14.0 started (CR-882: stricter request validation)
+2026-11-03T02:03:31Z INFO deploy release v2.14.0 completed
+2026-11-03T02:06:18Z INFO api POST /v1/lockers/LK-2041/doors/open 200 firmware=3.4.2 compartment=4
+2026-11-03T02:07:02Z WARN api POST /v1/lockers/LK-1187/doors/open 422 firmware=3.1.0 compartment="07" error="compartment: expected integer"
+2026-11-03T02:07:05Z WARN device LK-1187 retry 1/3 door_open compartment="07"
+2026-11-03T02:07:11Z WARN api POST /v1/lockers/LK-1187/doors/open 422 firmware=3.1.0 compartment="07" error="compartment: expected integer"
+2026-11-03T02:07:20Z ERROR device LK-1187 door_open failed after 3 retries
+2026-11-03T02:09:44Z WARN api POST /v1/lockers/LK-0933/doors/open 422 firmware=3.1.0 compartment="15" error="compartment: expected integer"
+2026-11-03T02:10:02Z INFO api POST /v1/lockers/LK-3310/doors/open 200 firmware=3.4.0 compartment=9
+2026-11-03T02:14:27Z INFO servicedesk INC-5521 opened: "Customers at Westlands mall cannot collect parcels"
