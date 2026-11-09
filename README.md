@@ -8,7 +8,7 @@ All code is written in JavaScript (Node.js).
 | Task | Folder |
 | --- | --- |
 | Task 1: Log analysis (INC-5521) | [task-1-log-analysis](./task-1-log-analysis) |
-| Task 2 | Coming soon |
+| Task 2: Debug and fix code | [task-2-debug-and-fix](./task-2-debug-and-fix) |
 | Task 3 | Coming soon |
 | Task 4 | Coming soon |
 | Task 5: Incident communication and documentation | [task-5-incident-communication](./task-5-incident-communication) |
@@ -17,13 +17,11 @@ Each folder has its own README explaining what I found, what I changed and why.
 
 ## How to run
 
-Requires Node.js 18 or later. From inside a task folder:
+Requires Node.js 18 or later.
 
-```bash
-node <script-name>.js
-```
-
-Task 5 has no code. It contains written documents only.
+- **Task 1:** from inside the folder, run `node find-affected-lockers.js`
+- **Task 2:** from inside the folder, run `npm test`
+- **Task 5:** written documents only, no code
 
 ## AI assistance
 

@@ -1,3 +1,10 @@
+
 {
-  "type": "module"
+  "name": "task-2-debug-and-fix",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test"
+  }
 }
