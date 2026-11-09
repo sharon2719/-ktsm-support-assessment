@@ -1,6 +1,5 @@
 
-import fs from "node:fs";
-
+const fs = require("fs");
 // Read the log file
 if (!fs.existsSync("incident.log")) {
   console.log("Error: incident.log was not found.");

@@ -1,10 +1,15 @@
-
 {
-  "name": "task-2-debug-and-fix",
+  "name": "ktsm-support-assessment",
   "version": "1.0.0",
   "private": true,
-  "type": "module",
+  "description": "KTSM Technologies Senior Support Engineer assessment",
+  "engines": {
+    "node": ">=22.13"
+  },
   "scripts": {
-    "test": "node --test"
+    "task1": "cd task-1-log-analysis && node find-affected-lockers.js",
+    "task2": "node --test task-2-debug-fix-code/pickup.test.js",
+    "task3": "cd task-3-query-across-related-tables && node run-queries.js",
+    "test": "npm run task2"
   }
 }
